@@ -7,21 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Govind Tank",
+  title: "Hi all, I'm Govind",
+  subTitle: emoji("A passionate Mobile Software Developer 🚀 having an experience of building Web and Mobile applications with Java / Kotlin / Flutter and some other cool libraries and frameworks."),
+  resumeLink: "https://govindtank.github.io/resume/"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/govindtank",
+  linkedin: "https://www.linkedin.com/in/govindtank/",
+  gmail: "govindtank600@gmail.com",
+  gitlab: "https://gitlab.com/govindtank",
+  facebook: "https://www.facebook.com/govind.tank.77"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -29,10 +29,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY APPLICATION DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+//    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
@@ -40,6 +40,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -56,22 +60,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+//     {
+//       skillName: "reactjs",
+//       fontAwesomeClassname: "fab fa-react"
+//     },
+//     {
+//       skillName: "nodejs",
+//       fontAwesomeClassname: "fab fa-node"
+//     },
+//     {
+//       skillName: "swift",
+//       fontAwesomeClassname: "fab fa-swift"
+//     },
+//     {
+//       skillName: "npm",
+//       fontAwesomeClassname: "fab fa-npm"
+//     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -85,13 +89,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "google-play",
+      fontAwesomeClassname: "fab fa-google-play"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+//     {
+//       skillName: "docker",
+//       fontAwesomeClassname: "fab fa-docker"
+//     }
   ]
 };
 
@@ -100,17 +104,30 @@ https://fontawesome.com/icons?d=gallery */
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "System Analysing/Planning",
+      progressPercentage: "30%"
     },
     {
-      Stack: "Backend",
+      Stack: "Prototyping",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Application Design / Frontend",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend Services / API Integration",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Testing",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Deploying/Publishing",
+      progressPercentage: "50%"
     }
   ]
 };
@@ -120,7 +137,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username",
+  githubUserName: "govindtank",
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -132,12 +149,12 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      image: "https://drive.google.com/file/d/15n4GZixl2mQh_icPutubab6gIcloffYH/view",
+      link: "http://www.epartment.in/"
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
+      image: "https://drive.google.com/file/d/19EHiEBYqBBzNvJhuC2q_2OekiKuDf4C8/view?usp=sharing",
+      link: "http://www.citytadka.com/"
     }
   ]
 };
@@ -232,15 +249,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8460484061",
+  email_address: "govindtank600@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "govindtank4"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
